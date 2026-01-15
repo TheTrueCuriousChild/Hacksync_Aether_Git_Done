@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AETHER Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="page-wrapper">
+    <div class="login-card">
+        <div class="logo-container">
+            <!--<div class="atom">⚛</div>-->
+            <div class="atom"><img src="logo_atom_5.png" class="logo_img"></div>
+        </div>
+
+        <h1 class="logo-text">AETHER</h1>
+        <p class="subtitle">Intelligent Decision System</p>
+        <p class="tagline">Multi-Agent AI for Debates & Decision Making</p>
+
+        <button class="btn google" onclick="login('Google')"><i class="fa-brands fa-google"></i>  Sign in with Google</button>
+        <button class="btn github" onclick="login('GitHub')"><i class="fa-brands fa-github"></i>  Sign in with GitHub</button>
+        <button class="btn microsoft" onclick="login('Microsoft')">Sign in with Microsoft</button>
+        <button class="btn linkedin" onclick="login('LinkedIn')">Sign in with LinkedIn</button>
+
+        <div class="divider">or</div>
+
+        <button class="btn email" onclick="login('Email')">Login with Email</button>
+
+        <p class="footer">© 2026 AETHER — Secure AI Decision Platform</p>
+    </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
